@@ -53,18 +53,18 @@ color: #2A7AE4;
 
 
 
-.grilla__star{
+.grilla__productos{
 
 }
 
-.grilla__star___imagen{
+.grilla__productos___imagen{
 }
 
-.grilla__star___contenido{
+.grilla__productos___contenido{
 
 }
 
-.grilla__star___contenido-titulo{
+.grilla__productos___contenido-titulo{
 /* Producto XYZ */
 
 position: static;
@@ -92,7 +92,7 @@ margin: 8px 0px;
 
 }
 
-.grilla__star___contenido-descripcion{
+.grilla__productos___contenido-descripcion{
 /* $ 60,00 */
 
 position: static;
@@ -121,7 +121,7 @@ margin: 8px 0px;
 
 }
 
-.grilla__star___contenido-boton{
+.grilla__productos___contenido-boton{
 /* Ver producto */
 
 position: static;
