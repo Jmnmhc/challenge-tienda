@@ -1,0 +1,150 @@
+.grilla{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr) ;
+}
+
+.titulo__grilla{
+    grid-column: 1 / 6;
+    grid-row: 1;
+    padding-bottom: 2rem;
+
+
+    /* Star Wars */
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+/* Preto/100% */
+color: #464646;
+
+
+
+}
+
+.titulo__siguiente{
+    grid-column: 6 / 7;
+    grid-row: 1;
+    text-align: end;
+    padding-bottom: 2rem;
+    /* Ver todo */
+
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* Azul/100% */
+color: #2A7AE4;
+
+
+
+}
+
+
+
+.grilla__productos{
+
+}
+
+.grilla__productos___imagen{
+}
+
+.grilla__productos___contenido{
+
+}
+
+.grilla__productos___contenido-titulo{
+/* Producto XYZ */
+
+position: static;
+width: 176px;
+height: 16px;
+left: 0px;
+top: 182px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Preto/100% */
+color: #464646;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+
+}
+
+.grilla__productos___contenido-descripcion{
+/* $ 60,00 */
+
+position: static;
+width: 176px;
+height: 19px;
+left: 0px;
+top: 206px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* Preto/100% */
+color: #464646;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+
+}
+
+.grilla__productos___contenido-boton{
+/* Ver producto */
+
+position: static;
+width: 100px;
+height: 19px;
+left: 0px;
+top: 233px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* Azul/100% */
+color: #2A7AE4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 8px 0px;
+
+}
