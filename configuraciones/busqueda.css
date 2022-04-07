@@ -1,0 +1,40 @@
+.busqueda__cuadro{
+    display:flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 4rem;
+    /* margin-bottom: 4rem; */
+    justify-content: space-between;
+}
+
+.busqueda__cuadro___texto{
+    height: 40px;
+    width: 393px;
+    left: 208px;
+    top: 5px;
+    border-radius: 20px;
+    padding: 8px, 16px, 8px, 16px;
+    background: #F5F5F5;
+    background-image: url("../imagenes/lupa.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1.1rem;
+    background-position-x: 95%
+}
+
+.busqueda__cuadro___boton{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #ffffff;
+    color: #2A7AE4;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 20%;
+    margin-right: 0%;
+    cursor: pointer;
+    border: 1px solid #2A7AE4;
+    background-color: transparent;
+}
