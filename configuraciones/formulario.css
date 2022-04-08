@@ -1,0 +1,61 @@
+.formulario{
+    align-items: flex-start;
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 13rem;
+    justify-content: space-between;
+    margin-top:3rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3rem;
+    width: 80%;
+}
+
+.formulario__logo{ /*  */
+    display:block;
+    flex-basis:20%;
+}
+
+.formulario__lista{
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: row;
+}
+
+.formulario__lista___marco-item{
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5rem;
+    padding-bottom: .75rem;
+}
+
+.formulario__contacto{
+    flex-basis: 50%;
+}
+
+.formulario__contacto___marco-item--texto{
+    height: 3rem;
+    margin-bottom: .5rem;    
+    text-align: start;   
+    width: 100%;
+}
+
+.formulario__contacto___marco-item--boton{
+    align-items: center;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    justify-content: center;
+    line-height: 19px;
+    padding: 20px;
+}

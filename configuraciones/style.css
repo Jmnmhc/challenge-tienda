@@ -1,16 +1,17 @@
 body{
+    background: #e5e5e5;
     font-family: 'Raleway', sans-serif;
 }
 header{
-background: #ffffff;
+    background: #ffffff;
 }
 
 main{
-  
-   
-   
+    background: #e5e5e5;
 }
 
-.bloque__superior{
-    background: #e5e5e5;
+footer{
+    background: #ffffff;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }

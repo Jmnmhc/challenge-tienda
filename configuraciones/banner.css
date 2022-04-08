@@ -3,123 +3,47 @@
 }
 .banner__imagen{
     background: url("../imagenes/bannerHongo.png") no-repeat center / cover;
+    height: 70vh;
+    margin-top: 2rem;
     width: 100%;
-    height: 80vh;
+
 }
 
 .banner__texto-titulo{
-    position: static;
-    width: 751px;
-    height: 61px;
-    left: 0px;
-    top: 0px;
-    
-    padding-top: 12rem;
-
+    color: #FFFFFF;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 52px;
     line-height: 61px;
-    /* identical to box height */
-    
-    color: #FFFFFF;
-    
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 16px 0px;
-    
     margin-left: 10%;
-    
-
+    padding-top: 12rem;
 }
 
 .banner__texto-descripcion{
-/* Productos selecionados con 33% de descuento */
-
-position: static;
-width: 751px;
-height: 26px;
-left: 0px;
-top: 77px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 26px;
-/* identical to box height */
-
-/* Preto/branco */
-color: #FFFFFF;
-
-padding-top: 1.5rem;
-padding-bottom: 1.5rem;
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 16px 0px;
-
-margin-left: 10%;
-
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-left: 10%;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .banner__boton{
-    /* Botao */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 2rem;
-
-position: static;
-width: 129px;
-height: 51px;
-left: 0px;
-top: 119px;
-
-/* Azul/100% */
-background: #2A7AE4;
-
-/* Inside auto layout */
-flex: none;
-order: 2;
-flex-grow: 0;
-margin: 16px 0px;
-
-
-/* Texto */
-
-position: static;
-width: 200px;
-height: 19px;
-left: 16px;
-top: 16px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-/* Preto/branco */
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 10px;
-
-
-margin-left: 10%;
-
+    align-items: center;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    display: flex;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    height: 19px;
+    justify-content: center;
+    margin-left: 10%;
+    padding: 2rem;
+    width: 200px;
 }
