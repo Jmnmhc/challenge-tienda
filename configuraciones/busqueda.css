@@ -36,3 +36,34 @@
     padding-right: 2rem;
     text-align: left;
 }
+
+@media screen and (max-width: 768px){ 
+.busqueda__cuadro{
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-top: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    width: 94%;
+}
+
+.busqueda__cuadro___imagen{
+    width: 50%;
+    height: 50%;
+}
+
+.busqueda__cuadro___texto{
+    background-size: .6rem;
+    border-radius: 20px;
+    height: 20px;
+    width: 43%;
+}
+
+}
+
+@media screen and (max-width: 360px){ 
+    .busqueda__cuadro___texto{
+        display:none;
+    }
+}

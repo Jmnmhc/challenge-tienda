@@ -1,6 +1,12 @@
 .banner{
     position: relative;
 }
+
+.banner a {
+    display:inline-block;
+    margin-left: 9%;
+    text-decoration: none;
+}
 .banner__imagen{
     background: url("../imagenes/bannerHongo.png") no-repeat center / cover;
     height: 70vh;
@@ -46,4 +52,58 @@
     margin-left: 10%;
     padding: 2rem;
     width: 200px;
+}
+
+@media screen and (max-width: 768px){
+
+    .banner{
+        width: 100%;
+    }
+
+    .banner__imagen{
+        height: 70vh;
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .banner__texto-titulo{
+        margin-left: 5%;
+        padding-top:25%;
+        width: 70vh;
+    }
+    .banner__texto-descripcion{
+        margin-left: 5%;
+    }
+    .banner__boton{
+        display: grid;
+        place-content: center;
+                font-size: 16px;
+        height: 10px;
+        justify-content: center;
+        margin-left: 5%;
+        padding: 1rem;
+    }
+}
+    
+@media screen and (max-width: 360px){
+
+    .banner__texto-titulo{
+        margin-left: 5%;
+        padding-top:25%;
+        font-size: 28px;
+
+    }
+    .banner__texto-descripcion{
+        margin-left: 5%;
+        font-size: 14px;
+
+    }
+    .banner a {
+        place-content: center;
+        font-size: 16px;
+        height: 10px;
+        justify-content: center;
+        margin-left: 5%;
+        padding: 1rem;
+    }
+
 }

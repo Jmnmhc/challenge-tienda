@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../imagenes/icono.png" rel="shortcut icon" >
+    <link href="../configuraciones/reset.css" rel="stylesheet">
+    <link href="../configuraciones/style.css" rel="stylesheet">
+    <link href="../configuraciones/busqueda.css" rel="stylesheet">
+    <link href="../configuraciones/productos.css" rel="stylesheet">
+    <link href="../configuraciones/grilla.css" rel="stylesheet">
+    <link href="../configuraciones/formulario.css" rel="stylesheet">
+    <link href="../configuraciones/footer.css" rel="stylesheet">
+    <link href="../configuraciones/detallado.css" rel="stylesheet">
+    <link href="../configuraciones/editar.css" rel="stylesheet">
+
+</head>
+<body>
+ 
+    <header>
+        <div class ="busqueda__cuadro">
+            <a href="../../index.html"> <img src="../../imagenes/logoAluraGeek.png" class="busqueda__cuadro___imagen"></a>
+            <input class="busqueda__cuadro___texto" placeholder="¿Qué deseas buscar?" >
+            <button class="busqueda__cuadro___boton"><a href="../../paginas/login.html">Login</a></button>
+        </div>    
+        
+    </header>
+<main>
+    <section class="seccion___productos" data-seccionDetalle>
+
+    <div class="productos">
+        <img class="productos__imagen" data-imagen>
+        <div class="productos__texto">
+
+            <br>
+            <label for="nombre:">Nombre:</label>
+            <input name="nombre" type = "text" class = "texto__editar" data-inputNombre value="">
+
+            <br>
+            <label for="precio:">Precio:</label>
+            <input name="precio" type = "text" class = "texto__editar" data-InputPrecio>
+
+            <br>
+            <label for="descripcion">Descripcion:</label>
+            <textarea name="descripcion" class="texto__editar" rows="5" cols="60" data-InputDescripcion></textarea> 
+
+            <br>
+            <label for="clase:">Clase:</label>
+            <input name="clase" type = "text" class = "texto__editar" data-InputClase>
+
+            <div class="productos__texto-botones">
+                <button class="boton__Aceptar" data-btnAceptar>Aceptar</button>
+                <button class="boton__Cancelar" data-btnCancelar >Cancelar</button>
+            </div>    
+        </div>
+    </div>
+</section>
+
+    <section class="formulario">
+        <div class="formulario__logo">
+                <img src="../../imagenes/logoAluraGeek.png">
+
+        </div>
+        <div class="formulario__lista">
+            <ul class="formulario__lista___marco">
+                <li class="formulario__lista___marco-item">
+                    Quienes somos
+                </li>
+                <li class="formulario__lista___marco-item">
+                    Política de privacidad
+                </li>
+                <li class="formulario__lista___marco-item">
+                    Programa de fidelidad
+                </li>
+                <li class="formulario__lista___marco-item">
+                    Nuestras tiendas
+                </li>
+                <li class="formulario__lista___marco-item">
+                    Quiero ser franquiciado
+                </li>
+                <li class="formulario__lista___marco-item">
+                    Anuncie aquí
+                </li>
+            </ul>
+        </div>
+        <div class="formulario__contacto">
+            <ul class="formulario__contacto___marco">
+                <li class="formulario__contacto___marco-item">
+                    <span class="formulario__contacto___marco-item--texto---error" id="spanNombre"></span>        
+                    <input type="text" placeholder="ingrese su nombre" id="contacto__nombre" class="formulario__contacto___marco-item--texto">
+                </li>
+                <li class="formulario__contacto___marco-item">
+                    <span class="formulario__contacto___marco-item--texto---error" id="spanTexto"></span>        
+                    <textarea name="" id="contacto__texto" cols="30" rows="5" placeholder="ingrese su mensaje" class="formulario__contacto___marco-item--texto"></textarea>
+                </li>
+                <li class="formulario__contacto___marco-item">
+                    <button class="formulario__contacto___marco-item--boton">Enviar mensaje</button>
+                </li>
+            </ul>
+        </div>
+</section>
+</main>
+
+
+
+<footer>
+    <section class="rodapie">
+        <p>Desarrollado por Jmnmhc para challenge 2 de Front End ONE - 2022</p>
+    </section>
+</footer>
+
+<script type="module" src="../js/editar.js"></script>
+<script type="module" src="../js/busqueda3.js"></script>
+<script src="../../js/rodapie.js"></script>
+</body>
+
+</html>

@@ -59,3 +59,63 @@
     line-height: 19px;
     padding: 20px;
 }
+
+
+@media screen and (max-width: 768px){
+    .formulario{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 18rem;
+        justify-content: flex-start;
+        width: 94%;
+        padding-left: 3%;
+        padding-right: 3%;
+        }        
+
+        .formulario__contacto___marco-item--texto{
+            width: 100%;
+        }
+
+        .formulario__contacto___marco-item--texto{
+            width: 70%;
+        }
+
+        .formulario__contacto___marco-item--texto---error{
+            width: 45vh;
+        }
+
+
+
+}
+@media screen and (max-width: 360px){
+    .formulario{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 35rem;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
+    }        
+    .formulario__contacto{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 24%;
+        margin-right: 20%;
+    
+    }
+    .formulario__contacto___marco-item--texto{
+        width: 50vw;
+    }
+
+    .formulario__contacto___marco-item--texto---error{
+        width: 50vw;
+        font-size: .75rem;
+    }
+    
+
+}
+

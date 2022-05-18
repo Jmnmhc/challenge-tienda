@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../imagenes/icono.png" rel="shortcut icon" >
+    <link href="../configuraciones/reset.css" rel="stylesheet">
+    <link href="../configuraciones/style.css" rel="stylesheet">
+    <link href="../configuraciones/busqueda.css" rel="stylesheet">
+    <link href="../configuraciones/productos.css" rel="stylesheet">
+    <link href="../configuraciones/grilla.css" rel="stylesheet">
+    <link href="../configuraciones/formulario.css" rel="stylesheet">
+    <link href="../configuraciones/footer.css" rel="stylesheet">
+    <link href="../configuraciones/login.css" rel="stylesheet">
+    
+</head>
+<body>
+ 
+    <header>
+        <div class ="busqueda__cuadro">
+            <a href="../index.html"> <img src="../../imagenes/logoAluraGeek.png" class="busqueda__cuadro___imagen"></a>
+            <input class="busqueda__cuadro___texto" placeholder="¿Qué deseas buscar?" >
+            <button class="busqueda__cuadro___boton"><a href="#">Login</a></button>
+        </div>    
+        
+    </header>
+<main>
+
+    <div class="login">
+        <ul class="login__marco">
+            <li class="login__marco-item">
+                <span class="login__marco-mensaje-error" id="spanMail"></span>
+                <input type="email" placeholder="escriba su correo electrónico" class="login__marco-item--texto" id="textoMail" required>
+
+            </li>
+            <li class="login__marco-item">
+                <span class="login__marco-mensaje-error" id="spanPass"></span>
+                <input required type="password" placeholder="escriba su contraseña" class="login__marco-item--texto" id="textoPass">
+            </li>
+            <li class="login__marco-item">
+                <input type="button" value="Entrar" class="login__marco-item--boton" id="iniciar">
+
+            </li>
+        </ul>
+    </div>
+
+
+
+    <section class="formulario">
+        <div class="formulario__logo">
+                <img src="../../imagenes/logoAluraGeek.png">
+
+        </div>
+        <div class="formulario__lista">
+            <ul class="formulario__lista___marco">
+                <li class="formulario__lista___marco-item">
+                    Quienes somos
+                </li>
+                <li class="formulario__lista___marco-item">
+                    Política de privacidad
+                </li>
+                <li class="formulario__lista___marco-item">
+                    Programa de fidelidad
+                </li>
+                <li class="formulario__lista___marco-item">
+                    Nuestras tiendas
+                </li>
+                <li class="formulario__lista___marco-item">
+                    Quiero ser franquiciado
+                </li>
+                <li class="formulario__lista___marco-item">
+                    Anuncie aquí
+                </li>
+            </ul>
+        </div>
+        <div class="formulario__contacto">
+            <ul class="formulario__contacto___marco">
+                <li class="formulario__contacto___marco-item">
+                    <span class="formulario__contacto___marco-item--texto---error" id="spanNombre"></span>        
+                    <input type="text" name="textoNombre" placeholder="ingrese su nombre" id="contacto__nombre" class="formulario__contacto___marco-item--texto">
+                </li>
+                <li class="formulario__contacto___marco-item">
+                    <span class="formulario__contacto___marco-item--texto---error" id="spanTexto"></span>        
+                    <textarea name="textoMensaje" id="contacto__texto" cols="30" rows="5" placeholder="ingrese su mensaje" class="formulario__contacto___marco-item--texto"></textarea>
+                </li>
+                <li class="formulario__contacto___marco-item">
+                    <button class="formulario__contacto___marco-item--boton">Enviar mensaje</button>
+                </li>
+            </ul>
+        </div>
+</section>
+</main>
+
+
+
+<footer>
+    <section class="rodapie">
+        <p>Desarrollado por Jmnmhc para challenge 2 de Front End ONE - 2022</p>
+    </section>
+</footer>
+
+
+
+</body>
+<script src="../js/rodapie.js"></script>
+
+<script src="../js/iniciar.js"></script>
+
+</html>

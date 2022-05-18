@@ -1,0 +1,159 @@
+.agregar{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 2rem;
+    place-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.agregar__superior{
+display:flex;
+flex-direction: column;
+background-color: #ffffff;
+margin-right: 10%;
+width: 301px;
+height: 152px;
+align-items: center;
+justify-content: center;
+}
+
+.agregar__superior___imagen{
+width: 32px;
+height: 32px;
+align-self: center;
+
+
+position: static;
+left: 44.68%;
+right: 44.68%;
+top: 21.05%;
+bottom: 57.89%;
+
+background-image: url("../imagenes/buscarImagen.png");
+
+}
+
+
+.agregar__superior___descripcion{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #6B6B6B;
+}
+
+.agregar__inferior{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.agregar__inferior___descripcion{
+padding-right: 1rem;
+}
+
+.agregar__inferior___boton{
+    padding-left: 10%;
+    width: 30vh;
+
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    cursor: pointer; 
+
+    padding: .5rem;
+}
+
+
+
+.agregar__textos{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 2rem;
+    place-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.agregar__textos___input{
+    margin-left:30%;
+    margin-right: 30%;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    width: 100%;
+}
+
+.agregar__boton{
+background: #2A7AE4;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+
+
+margin-left:30%;
+margin-right: 30%;
+margin-top: .5rem;
+margin-bottom: .5rem;
+padding-top: .5rem;
+padding-bottom: .5rem;
+width: 100%;
+
+
+}
+
+.recetas {
+    background: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.receta {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.receta__imagem {
+    height: 200px;
+}
+
+
+.receta__boton {
+    background: #8d0606;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+}
+
+
+.receta__descripcion {
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.receta__contenido {
+    padding: 1rem;
+}
+.receta__titulo {
+    font-size: 1.4375rem;
+}

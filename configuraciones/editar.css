@@ -1,0 +1,11 @@
+.boton__Aceptar{
+    background-color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 360px){
+.texto__editar{
+    width: 80%;
+}
+}
+

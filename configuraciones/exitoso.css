@@ -1,0 +1,18 @@
+.exitoso{
+
+    margin-top: 5rem;
+    display:flex;
+        justify-content: center;
+        align-items: center;
+}
+.exitoso__item{
+}
+.exitoso__item-titulo{
+
+}
+.exitoso__item-texto{
+
+}
+.exitoso__item-boton{
+background: lightskyblue;
+}

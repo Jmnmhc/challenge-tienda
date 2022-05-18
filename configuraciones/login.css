@@ -1,0 +1,48 @@
+.login{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.login__marco-item--texto{
+    
+    width: 50vh;
+    height: 63px;
+    margin-bottom: 1rem;
+
+
+}
+.login__marco-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__marco-item--boton{
+    
+    width: 50vh;
+    height: 63px;
+    margin-bottom: 1rem;
+    align-items: center;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    justify-content: center;
+    line-height: 19px;
+    padding: 20px;
+
+    
+}
+
+.login__marco-mensaje-error{
+    color: red;
+    max-width: 50vh;;
+}
